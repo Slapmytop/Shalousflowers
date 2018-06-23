@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "brushscript";
+	src: url("../fonts/brush-script-mt-italic.ttf");
+}
+
+.aboutus h1 {
+	text-align: center;
+	background-color: purple;
+	color: white;
+}
+
+body {
+	background-color: #BCC4C2;
+}
+
+.header {
+
+}
+
+.header ul {
+	list-style-type: none;
+	text-align: center;
+	
+
+}
+
+.header li {
+	border: 1px solid black;
+	display: inline-block;
+	letter-spacing: 4px;
+	margin: 10px auto 10px auto;
+	background-color: purple;
+}
+.header a {
+	text-decoration: none;
+	color: blue;
+	font-size: 40px;
+	text-shadow: 1px 1px 3px black;
+	padding: 10px;
+	color: white;
+}
+
+.center {
+	background: #E154E8;
+	margin: 0 auto;  
+	width: 950px; 
+}
+
+
+
+.content {
+	border: 1px solid black; 
+
+}
+
+.content p {
+	font-size: 20px;
+	margin: 40px 40px;
+}
+
+.main {
+	border: 1px solid black;
+	height: 110px;
+	width: 940px;
+	padding-top: 20px;
+}
+
+.facebook img {
+	margin-top: 0px;
+	padding-right: 5px;
+	float: right;
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+}
+
+main .facebook img:hover {
+	color: black;
+}
+
+.instagram img {
+	padding-right: 15px;
+	float: right;
+	height: 100px;
+	width: 300px;
+}
+
+.twitter img { 
+	padding-left: 5px;
+	float: left;
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+}
+
+footer {
+	position: absolute;
+	font-size: 40px;
+	width: 940px;
+	height: 50px;
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: yellow;
+}
+
+
+
+footer a {
+		text-decoration: none;
+}
+
+.design {
+	font-size: 30px;
+
+}
+
+.design p {
+	text-align: center;
+}
+.design span:hover {
+	color: black;
+}
+
+.w3 {
+	float: left;
+	margin-top: 5px;
+}
+
+.top {
+	float: right;
+}
+
+.top a {
+	color: blue;
+	text-decoration: underline;
+}
